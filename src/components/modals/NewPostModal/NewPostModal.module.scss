@@ -1,0 +1,27 @@
+.modal-overlay{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal{
+    width: 500px;
+    height: 500px;
+    background-color: #1b263b;
+}
+
+.input-title{
+    background: none;
+    border-color: white;
+    color: white;
+}
+.title{
+    font-style: italic;
+}

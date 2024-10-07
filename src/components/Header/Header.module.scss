@@ -1,0 +1,28 @@
+.site-brand{
+    color: white;
+    margin-left: 25px;
+}
+
+.main-nav{
+    margin-right: 25px;
+
+}
+
+.nav-sections{
+    display: flex;
+    gap: 30px;
+    list-style-type: none
+    
+    
+}
+
+a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+.header-app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
