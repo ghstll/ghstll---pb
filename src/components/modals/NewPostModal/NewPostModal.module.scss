@@ -12,16 +12,38 @@
 }
 
 .modal{
-    width: 500px;
+    width: 1000px;
     height: 500px;
     background-color: #1b263b;
+    display: grid;
+    grid-template-columns: 700px auto;
+    grid-template-rows: max-content;
 }
 
-.input-title{
+.title-container{
+    height: auto;
+    // background-color: aqua;
+}
+
+
+
+
+.categories-container{
+    // background-color: blue;
+    grid-row: span 2;
+}
+.content-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    // background-color: brown;
+}
+
+.content-text-area{
+    width: 96%;
+    height: 96%;
     background: none;
-    border-color: white;
     color: white;
-}
-.title{
-    font-style: italic;
-}
+    }
+

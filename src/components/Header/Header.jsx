@@ -3,7 +3,7 @@ function HeaderPage(){
     return(
      <header className={styles['header-app']}>
         <div className={styles['site-brand']}>
-          <h1 id='brand'>Ghstll - Personal Blog</h1>
+          <h1 id='brand'>Ghstll</h1>
         </div>
         <nav className={styles['main-nav']}>
           <ul className={styles['nav-sections']}>
