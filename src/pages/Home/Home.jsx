@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from '../../components/Header/Header.jsx'
 import NewPostModal from '../../components/modals/NewPostModal/NewPostModal.jsx'
+import Post from '../../components/Post/Post.jsx'
 import styles from './Home.module.scss'
 function Home(){
 
@@ -38,6 +39,9 @@ function Home(){
             New
         </button >
         {showModalNewPost && <NewPostModal onClose={closeModal}></NewPostModal>}
+        <section>
+            <Post></Post>
+        </section>
     </>)
 }
 export default Home
